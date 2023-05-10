@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: blue;
+  color: #fff;
+  gap: 20px; /* set gap between div elements */
+}
+
+.sb_footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  text-align: left;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.sb_footer-below {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 0.2rem;
+  width: 100%;
+}
+
+.sb_footer-below p {
+  margin: 0;
+  padding-right: 60px;
+  text-align: center;
+  flex: 1;
+}
+
+.sb_footer-below svg {
+  margin-right: 10px;
+}
+
+.sb_footer-email {
+  display: flex;
+  align-items: center;
+}
+
+.sb_footer-email p {
+  margin: 0;
+  margin-left: 10px;
+}
+
+.footer-span {
+    background-color: white;
+    width: 60px;
+    border-radius: 10px;
+    display: inline-block;
+    height: 6px;
+    margin-top: -4px;
+}
+
+.footer-logo {
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 4px;
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+}
