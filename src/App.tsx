@@ -12,7 +12,6 @@ export function App() {
     <>
     <Router>
       <Routes> 
-        <Route path="/" element={<LandingPage />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route element = {<ResetPassword/>} path="/reset-password"/>
       </Routes>
