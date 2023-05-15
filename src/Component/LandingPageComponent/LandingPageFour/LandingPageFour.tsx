@@ -1,4 +1,4 @@
-// import { Component } from 'react'
+import Button from '../../Button/Button';
 import './LandingPageFour.css';
 import React from 'react'
 
@@ -12,8 +12,7 @@ const LandingPageFour = () => {
         </p>
       </div>
       <div className="landingpagefourbutton">
-        <button className='button-button'>Click here to join us</button>
-        
+        <Button width="185px" height="46px" backgroundColor="#175cd3">Click here to join us</Button>
       </div>
 </div>
   )
