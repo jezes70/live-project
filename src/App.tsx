@@ -1,22 +1,20 @@
-import React from 'react'
-import {Container, Button, Title, Count} from './style'
-import MyComponent from './Context/Context';
+import React from "react";
+import { Container, Button, Title, Count } from "./style";
+import MyComponent from "./Context/Context";
 
-function App() {
+import { Routes,BrowserRouter, Route } from "react-router-dom";
+import AboutUs from "./page/AboutUs Page/AboutUs";
 
+export function App() {
   return (
-    <div>
-      <MyComponent></MyComponent>
-      <Container>
-      <Title>My App</Title>
-      <Count>Count: 0</Count>
-      <Button onClick={() => console.log('Button clicked!')}>
-        Click me
-      </Button>
-    </Container>
-      
-    </div>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/aboutus" element={<AboutUs />} />
+      </Routes>
+    </BrowserRouter>
+  );
+
+ 
 }
 
-export default App
+export default App;
