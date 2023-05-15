@@ -1,7 +1,13 @@
 import React from 'react'
 
-export const Button = () => {
+const Button = (props: any) => {
+  const ButtonStyles = {
+    height: props.height,
+    width: props.width,
+    backgroundColor: props.backgroundColor
+  }
   return (
-    <div>Button</div>
+    <button style={ButtonStyles}>{props.children}</button>
   )
 }
+export default Button;
