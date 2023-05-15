@@ -1,0 +1,40 @@
+html, body {
+  margin: 0;
+  padding: 0
+}
+
+.landingpagefourtitle {
+  text-align: center;
+}
+
+.lpfourcontainer {
+  width: 100%;
+  padding: 50px;
+ background-color: #f2f4f7;;
+}
+
+.landingpagefourparagraph {
+  width: 68%;
+  margin: 0 auto;
+}
+
+.p-landingpage4 {
+  text-align: center;
+  font-size: 16px;
+}
+
+.landingpagefourbutton {
+  display: flex;
+  justify-content: center;
+}
+
+.button-button {
+    padding: 12px 16px;
+    width: 185px;
+    height: 46px;
+    border-radius: 8px;
+    background-color: #175cd3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
