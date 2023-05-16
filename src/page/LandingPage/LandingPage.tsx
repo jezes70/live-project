@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
+import LandingPageComponent from '../../Component/LandingPageComponent/LandingPage';
 
-export const LandingPage = () => {
+const LandingPage = () => {
   return (
-    <div>LandingPage</div>
+    <div>
+      <LandingPageComponent />
+    </div>
   )
 }
+export default LandingPage
+
 
