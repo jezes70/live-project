@@ -1,62 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+html {
+  margin: 0;
+  padding: 0;
+}
 
-.footer {
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  padding: 10px;
+  background-color: #175CD3;
   position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  padding: 40px;
-  background-color: blue;
-  color: #fff;
-  gap: 20px; /* set gap between div elements */
+  bottom: 0
 }
 
-.sb_footer-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-direction: row;
-  text-align: left;
-  margin-bottom: 2rem;
-  width: 100%;
-}
-
-.sb_footer-below {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 0.2rem;
-  width: 100%;
-}
-
-.sb_footer-below p {
-  margin: 0;
-  padding-right: 60px;
-  text-align: center;
-  flex: 1;
-}
-
-.sb_footer-below svg {
-  margin-right: 10px;
-}
-
-.sb_footer-email {
-  display: flex;
-  align-items: center;
-}
-
-.sb_footer-email p {
-  margin: 0;
-  margin-left: 10px;
-}
-
-.footer-span {
+.line {
     background-color: white;
     width: 60px;
     border-radius: 10px;
@@ -65,10 +25,40 @@
     margin-top: -4px;
 }
 
-.footer-logo {
-    font-family: 'Inter', sans-serif;
-    padding-bottom: 4px;
-    display: block;
-    font-size: 20px;
-    font-weight: 400;
+
+.mind-connect {
+  width: 91%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.mindconnect-title {
+  color: white;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sub {
+  color: white;
+}
+
+.text {
+  font-size: 15px;
+}
+
+.icon-real {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-media {
+  color: white;
+  font-size: 7px;
 }

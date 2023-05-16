@@ -1,34 +1,30 @@
 import React from "react";
 import "./footer.css";
-import InstagramIcon from '@mui/icons-material/Instagram';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import YouTubeIcon from '@mui/icons-material/YouTube';
+import InstagramIcon from "@mui/icons-material/Instagram";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import YouTubeIcon from "@mui/icons-material/YouTube";
 
-const Footer: React.FC = () => {
+const Footer = () => {
   return (
-    <div className="footer">
-      <div className="sb_footer-links">
-        <div className="sb_footer section_padding">
-          <div className="sb_footer-links-div">
-            <span className="footer-logo">MindConnect</span>
-            <span className="footer-span"></span>
+    <div className="container">
+       <div className="mind-connect">
+        <span className="mindconnect-title">MindConnect</span> 
+        <p className="line"></p>
+      </div>
+      <div className="footer">
+        <div className="all-rights">
+          <p className="text">All rights reserved. &copy 2023 HR MindConnect</p>
+        </div>
+        <div className="all-rights">
+          <p className="text">By creating an account you agree to our <span className="sub">Terms and conditions. Privacy Policies </span> and <span className="sub">Security Settings</span></p>
+        </div>
+        <div className="icons">
+          <div className="icon-real">
+            <InstagramIcon className="social-media" />
+            <TwitterIcon className="social-media" />
+            <YouTubeIcon className="social-media" />
           </div>
-          <div className="sb_footer-below">
-            <p className="sb_footer-rights">
-              All rights reserved. &copy;2023 HR MindConnect.
-            </p>
-            <div>
-              <p>
-                By creating an account you agree to our Terms and Conditions, Privacy Policies, and Security Settings.
-              </p>
-            </div>
-            <div className="sb_footer-links-div">
-              <InstagramIcon />
-              <TwitterIcon />
-              <YouTubeIcon />
-              <p className="sb_footer-email">info@mindconnect.com</p>
-            </div>
-          </div>
+        <p className="text">info@mindconnect.com</p>
         </div>
       </div>
     </div>
@@ -36,3 +32,5 @@ const Footer: React.FC = () => {
 };
 
 export default Footer;
+
+  
