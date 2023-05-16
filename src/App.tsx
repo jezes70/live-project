@@ -1,25 +1,22 @@
-
 import React from 'react'
-import {Route, Routes, BrowserRouter as Router} from 'react-router-dom';
-import LandingPage from './page/LandingPage/LandingPage';
-import ResetPassword from './page/ResetPassword/ResetPassword';
-import AboutUs from "./page/AboutUs Page/AboutUs";
+import {Container, Button, Title, Count} from './style'
+import MyComponent from './Context/Context';
 
+function App() {
 
-export function App() {
   return (
-
-    <>
-    <Router>
-      <Routes> 
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/aboutus" element={<AboutUs />} />
-        <Route element = {<ResetPassword/>} path="/reset-password"/>
-      </Routes>
-    </Router>
-    </>
+    <div>
+      <MyComponent></MyComponent>
+      <Container>
+      <Title>My App</Title>
+      <Count>Count: 0</Count>
+      <Button onClick={() => console.log('Button clicked!')}>
+        Click me
+      </Button>
+    </Container>
+      
+    </div>
   )
-
 }
 
-export default App;
+export default App
