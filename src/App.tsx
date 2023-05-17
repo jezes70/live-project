@@ -6,6 +6,7 @@ import ResetPassword from './page/ResetPassword/Reset';
 import Forgot from './page/ForgotPassword/Forgot';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { LandingPage } from './Component/LandiingPage Component/LandingPage';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route element = {<Forgot/>} path="/forgot-password"/>
         <Route element = {<ResetPassword/>} path="/reset-password"/>
+        <Route path="/" element ={<LandingPage/>}/>
       </Routes>
     </Router>
     </>
