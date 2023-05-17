@@ -3366,7 +3366,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"loose-envify@npm:^1.1.0":
+"loose-envify@npm:^1.1.0, loose-envify@npm:^1.4.0":
   version: 1.4.0
   resolution: "loose-envify@npm:1.4.0"
   dependencies:
@@ -3451,6 +3451,7 @@ __metadata:
     eslint-plugin-react-refresh: "npm:^0.3.4"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
+    react-google-login: "npm:^5.2.2"
     react-icons: "npm:^4.8.0"
     react-router-dom: "npm:^6.11.1"
     react-toastify: "npm:^9.1.3"
@@ -3698,6 +3699,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"object-assign@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "object-assign@npm:4.1.1"
+  checksum: f5cd1f2f1e82e12207e4f2377d9d7d90fbc0d9822a6afa717a6dcab6930d8925e1ebbbb25df770c31ff11335ee423459ba65ffa2e53999926c328b806b4d73d6
+  languageName: node
+  linkType: hard
+
 "once@npm:^1.3.0":
   version: 1.4.0
   resolution: "once@npm:1.4.0"
@@ -3855,6 +3863,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"prop-types@npm:^15.6.0":
+  version: 15.8.1
+  resolution: "prop-types@npm:15.8.1"
+  dependencies:
+    loose-envify: "npm:^1.4.0"
+    object-assign: "npm:^4.1.1"
+    react-is: "npm:^16.13.1"
+  checksum: 196295f119e0f38ec64b43c1121a7e3bdbfcf66b86a01d50df22a247eb22b644033097b53a3b0961ce64d540c7a2c505c844ff245cb548b4f6eda59bbac6fbf0
+  languageName: node
+  linkType: hard
+
 "proxy-from-env@npm:^1.1.0":
   version: 1.1.0
   resolution: "proxy-from-env@npm:1.1.0"
@@ -3888,12 +3907,32 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-google-login@npm:^5.2.2":
+  version: 5.2.2
+  resolution: "react-google-login@npm:5.2.2"
+  dependencies:
+    "@types/react": "npm:*"
+    prop-types: "npm:^15.6.0"
+  peerDependencies:
+    react: ^16 || ^17
+    react-dom: ^16 || ^17
+  checksum: 36d9b4eee818f902fc3db4ab7cf0d5ba4f14b9f89435721c86d3d02881f9bb7ddb4699200dc0a8443ba1302aab3f53bfc2d2419eb49fa0daf1107b1a6c3d77d2
+  languageName: node
+  linkType: hard
+
 "react-icons@npm:^4.8.0":
   version: 4.8.0
   resolution: "react-icons@npm:4.8.0"
   peerDependencies:
     react: "*"
   checksum: 18ff21e05b3ee10c34dccb930f60956c6124461cc5ef317e81a82bb88b61458f7b5e0afa47e79f24f793785fd3ae6b4775c2e1275cbf20be99fc7578e0b98628
+  languageName: node
+  linkType: hard
+
+"react-is@npm:^16.13.1":
+  version: 16.13.1
+  resolution: "react-is@npm:16.13.1"
+  checksum: 0c9adc5d984db733fb1dd298f3e94cdec66bc328d27fb11df65971d2cc9a299008bc64baab8fe8e79943df85b445a1008b2cc9e270825d0fd056e5a0d2df8de6
   languageName: node
   linkType: hard
 
