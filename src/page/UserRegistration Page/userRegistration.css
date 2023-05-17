@@ -28,7 +28,6 @@ body {
   grid-template-areas: "overlap";
   width: 100%;
   height: 100vh;
-  /* border: rgb(0, 166, 255) solid 5px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,24 +37,11 @@ body {
 
 .Frame1 {
   display: flex;
-  /* grid-area: overlap;
-  align-self: center;
-  justify-self: center; */
   flex-direction: row; 
-  /* align-items: f; */
-  
-  /* padding: 0px 56px 0px 0px; */
-  /* gap: 80px; */
-
-  /* position: absolute; */
   width: 1236px;
   height: 800px;
-  /* left: 101px; */
-  /* top: 112px; */
   background: #FFFFFF;
   box-shadow: 2px -2px 30px rgba(23, 46, 217, 0.2);
-  /* border: rgb(255, 0, 212) solid 5px; */
-
 }
 
 .Frame2 {
@@ -64,10 +50,6 @@ body {
 
     background: url(https://res.cloudinary.com/dgny9bffu/image/upload/v1684273106/frame3_g2rcvh.png) no-repeat;
     background-size: cover;
-    /* flex: none;
-    order: 0;
-    flex-grow: 0; */
-    /* border: rgb(255, 0, 212) solid 5px; */
 }
 
 .mind-connect {
@@ -82,9 +64,6 @@ body {
     height: 57px;
     margin-top: 25px;
     margin-left: 25px;
-    /* left: 24px; */
-    /* top: 24px; */
-
     background: linear-gradient(180deg, rgba(24, 73, 169, 0.7)0%, rgba(24, 73, 169, 0) 100%);
     filter: drop-shadow(0px -8px 16px #6270D9);
 }
@@ -99,11 +78,7 @@ body {
     font-size: 32px;
     line-height: 140%;
     letter-spacing: 0.25px;
-
     color: #D1E9FF;
-    /* flex: none; */
-    /* order: 0; */
-    /* flex-grow: 0; */
 }
 
 .parentFrame3 {
@@ -112,7 +87,6 @@ body {
   justify-content: center;
   width: 100%;
   height: 100%;
-  /* border: rgb(98, 81, 81) solid 5px; */
 }
 
 .Frame3 {
@@ -123,12 +97,6 @@ body {
     gap: 32px;
     width: 680px;
     height: 679px;
-   
-
-    /* flex: none; */
-    /* order: 1; */
-    /* flex-grow: 0; */
-    /* border: #f00 solid 5px; */
 }
 
 .parentForm {
@@ -147,10 +115,6 @@ body {
 
     width: 680px;
     height: 513px;
-
-    /* flex: none;
-    order: 0;
-    flex-grow: 0; */
 }
 
 .registration {
@@ -161,9 +125,6 @@ body {
     font-weight: 700;
     line-height: 140%;
     letter-spacing: 0.25px;
-    /* flex: none; */
-    /* order: 0; */
-    /* flex-grow: 0; */
     width: 194px;
     height: 45px;   
 }
@@ -174,13 +135,8 @@ body {
     align-items: flex-start;
     padding: 0px;
     gap: 4px;
-
     width: 194;
     height: 57px;
-
-    /* flex: none; */
-    /* order: 0; */
-    /* flex-grow: 0; */
 }
 
 .Frame6 {
@@ -188,11 +144,6 @@ width: 80px;
 height: 8px;
 background: #175CD3;
 border-radius: 6px;
-
-flex: none;
-order: 1;
-flex-grow: 0;
-
 }
 
 .Frame7 {
@@ -206,10 +157,6 @@ flex-grow: 0;
 
     width: 680px;
     height: 400px;
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
 
 .Frame8 {
@@ -221,10 +168,6 @@ flex-grow: 0;
 
     width: 680px;
     height: 72px;
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 .form-group {
@@ -236,11 +179,6 @@ flex-grow: 0;
 
     width: 320px;
     height: 72px;
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
 }
 
 .form-group1 {
@@ -252,11 +190,6 @@ flex-grow: 0;
 
   width: 320px;
   height: 72px;
-
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
 }
 
 .password-input {
@@ -281,9 +214,6 @@ flex-grow: 0;
   padding: 0px;
   width: 64px;
   height: 20px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .form-group-box {
@@ -341,10 +271,8 @@ flex-grow: 0;
     padding: 0px;
     gap:40px;
     top: 88px;
-
     width: 680px;
     height: 72px;
-
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -357,13 +285,8 @@ flex-grow: 0;
     padding: 0px;
     gap:40px;
     top: 88px;
-
     width: 680px;
     height: 72px;
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
 
 .Frame11 {
@@ -373,10 +296,8 @@ flex-grow: 0;
     padding: 0px;
     gap:40px;
     top: 264px;
-
     width: 680px;
     height: 72px;
-
     flex: none;
     order: 3;
     flex-grow: 0;
@@ -389,10 +310,8 @@ flex-grow: 0;
     padding: 0px;
     gap: 4px;
     top: 352px;
-
     width: 470px;
     height: 48px;
-
     flex: none;
     order: 4;
     flex-grow: 0;
@@ -403,11 +322,9 @@ flex-grow: 0;
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-    gap: 2px;
-    
+    gap: 2px;  
     width: 46px;
     height: 20px;
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -416,16 +333,12 @@ flex-grow: 0;
 .Frame14 {
     width: 46px;
     height: 20px;
-
     font-family: 'Heebo';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
-    
-
     color: #212121;
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -438,11 +351,8 @@ flex-grow: 0;
     justify-content: space-between;
     padding: 0px;
     gap: 4px;
-
     width: 400px;
     height: 24px;
-    
-
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -452,16 +362,12 @@ flex-grow: 0;
  .form-check1 {
         display: flex;
         flex-direction: row;
-        align-items: center;
-        
+        align-items: center;   
         padding: 0px;
         gap: 8px;
-
         width: 62px;
         height: 24px; 
-
         /* Inside auto layout */
-
         flex: none;
         order: 0;
         flex-grow: 0;
@@ -477,37 +383,29 @@ input[type="radio"] {
 }
 
 .form-check-label {
-  width: 144px;
-  height: 24px;
-  padding-top: 5px;
-
-  font-family: 'Heebo';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-
-  color: #212121;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+        width: 144px;
+        height: 24px;
+        padding-top: 5px;
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #212121;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
 }
 
 .frame16 {
-        /* Auto layout */
-
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 0px;
         gap: 24px;
-
         margin-top: 45px;
-
         width: 453px;
         height: 134px;
-        
-        /* Inside auto layout */
 }
 
 .frame17 {
@@ -518,7 +416,6 @@ input[type="radio"] {
   gap: 24px;
   width: 420px;
   height: 90px;
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -532,14 +429,11 @@ input[type="radio"] {
   align-items: center;
   padding: 12px 16px;
   gap: 8px;
-
   width: 420px;
   height: 46px;
-
   background: #175CD3;
   border: 1px solid #175CD3;
   border-radius: 6px;
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -556,9 +450,7 @@ input[type="radio"] {
   display: flex;
   align-items: center;
   letter-spacing: 0.15px;
-
   color: #FFFFFF;
-
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -567,15 +459,12 @@ input[type="radio"] {
 .form-group-text-center {
   width: 220px;
   height: 20px;
-
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-
   color: #667085;
-
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -592,15 +481,12 @@ input[type="radio"] {
 .form-group-text-center-bottom {
   width: 453px;
   height: 20px;
-
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-
   color: #667085;
-
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -609,11 +495,7 @@ input[type="radio"] {
   cursor:pointer;
 }
 
-/* //Responsive start here */
-
 @media only screen and (max-width:768px) {
-  /* // Frame00 The whole body */
-
   *,
 *:before,
 *:after {
@@ -626,22 +508,18 @@ body {
   background-size:auto;
   width: 100%;
   height: auto;
-
   margin: 0;
   padding: 0;
   background: url(https://res.cloudinary.com/dgny9bffu/image/upload/v1684262081/bg-pattern_lmpmqi.png);
 }
 
-
 .background {
   background: none;
   width: 100%;
   height: 100vh;
-  /* border: rgb(0, 166, 255) solid 5px; */
   display: flex;
   justify-content: center;
   align-items:start;
-  /* background: url(../../../public/images/frame2.png) no-repeat; */
   overflow-y: scroll;
   max-height: auto;
 
@@ -654,8 +532,6 @@ body {
   height:1400px;
   background: none;
   box-shadow: 2px -2px 30px rgba(23, 46, 217, 0.2);
-  /* border: rgb(189, 49, 166) solid 5px; */
-
 }
 
 
@@ -667,7 +543,6 @@ body {
 
   background: url(https://res.cloudinary.com/dgny9bffu/image/upload/v1684273106/frame3_g2rcvh.png) no-repeat;
   background-size: cover;
-  /* border: rgb(255, 0, 212) solid 5px; */
 }
 
 .mind-connect {
@@ -678,20 +553,17 @@ body {
   height: 57px;
   margin-top: 25px;
   margin-left: 25px;
-  /* border: #f00 solid 5px; */
 }
 
 .mind-connect-text {
   width: 215px;
   height: 45px;
-
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 140%;
   letter-spacing: 0.25px;
-
   color: #D1E9FF;
 }
 
@@ -701,7 +573,6 @@ body {
   justify-content: center;
   width: 100%;
   height: 100%;
-  /* border: rgb(98, 81, 81) solid 5px; */
 }
 
 .Frame3 {
@@ -709,15 +580,8 @@ body {
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    /* gap: 32px; */
     width: 100%;
     height: auto;
-   
-
-    /* flex: none; */
-    /* order: 1; */
-    /* flex-grow: 0; */
-    /* border: #f00 solid 5px; */
 }
 
 .parentForm {
@@ -731,21 +595,11 @@ body {
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    /* gap: 56px; */
-
     width: auto;
     height: auto;
-
     margin-top: 50px;
     margin-left: 20px;
     margin-right: 20px;
-    
-    
-    /* border: #f00 solid 5px; */
-
-    /* flex: none;
-    order: 0;
-    flex-grow: 0; */
 }
 
 .Frame5 {
@@ -754,15 +608,9 @@ body {
   align-items: flex-start;
   padding: 0px;
   gap: 4px;
-
   width: auto;
   height: 57px;
   margin-left: 25px;
-
-  /* flex: none; */
-  /* order: 0; */
-  /* flex-grow: 0; */
-  /* border: #f00 solid 5px; */
 }
 
 .registration {
@@ -773,13 +621,8 @@ body {
     font-weight: 700;
     line-height: 140%;
     letter-spacing: 0.25px;
-    /* flex: none; */
-    /* order: 0; */
-    /* flex-grow: 0; */
     width: auto;
     height: 45px;
-    
-    /* border: #f00 solid 5px;  */
 }
 
 .Frame6 {
@@ -788,7 +631,6 @@ body {
   height: 8px;
   background: #175CD3;
   border-radius: 6px;
-  
   }
   
   .Frame7  {
@@ -796,29 +638,18 @@ body {
       flex-direction: column;
       justify-content: flex-start;
       align-items: flex-start;
-      
       margin-left: 10px;
-  
       width: 100%;
       height: auto;
-  
-      /* border: #f00 solid 5px;  */
   }
   
   .Frame8 {
       display: block;
       flex-direction: row;
-      /* justify-content: space-between; */
-      /* align-items: flex-start; */
-      /* padding-bottom: 10px; */
       gap: 15px;
-      
-  
       width: auto;
       height: auto;
       margin-bottom: 35px;
-  
-      /* border: rgb(114, 106, 106) solid 5px;  */
   }
   
   .form-group1 {
@@ -826,8 +657,6 @@ body {
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 30px;
-    
-
 }
   
   
@@ -851,9 +680,6 @@ body {
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-    /* width: 12px; */
-    /* height: 20px; */
-    /* border: #f00 solid 5px;  */
   }
   
   .form-group-box {
@@ -865,9 +691,7 @@ body {
     font-weight: 600;
     font-size: 14px;
     line-height: 20px;
-  
     color: #212121;
-    /* border: #f00 solid 5px;  */
   }
   
     input[type="text"],
@@ -879,17 +703,11 @@ body {
       display: flex;
       flex-direction: row;
       align-items: center;
-      /* padding: 12px; */
-      /* gap: 8px; */
-      /* width: 320px; */
       height: 48;
       background: #FFFFFF;
       border: 1px solid #BDBDBD;
       border-radius: 4px;
       font-size: 17px;
-      /*Inside auto layout */
-      
-      /* border: #f00 solid 5px;  */
     }
   
     select {
@@ -903,50 +721,28 @@ body {
   .Frame9 {
     display: block;
     flex-direction: row;
-    /* justify-content: space-between; */
-    /* align-items: flex-start; */
-    /* padding-bottom: 10px; */
     gap: 15px;
-    
-
     width: 100%;
     height: auto;
     margin-bottom: 20px;
-
-    /* border: rgb(114, 106, 106) solid 5px;  */
   }
   
   .Frame10 {
     display: block;
     flex-direction: row;
-    /* justify-content: space-between; */
-    /* align-items: flex-start; */
-    /* padding-bottom: 10px; */
     gap: 15px;
-    
-
     width: 100%;
     height: auto;
     margin-bottom: 20px;
-
-    /* border: rgb(114, 106, 106) solid 5px;  */
-  
   }
   
   .Frame11 {
     display: block;
     flex-direction: row;
-    /* justify-content: space-between; */
-    /* align-items: flex-start; */
-    /* padding-bottom: 10px; */
     gap: 15px;
-    
-
     width: 100%;
     height: auto;
     margin-bottom: 20px;
-
-    /* border: rgb(114, 106, 106) solid 5px;  */
   }
   
   .Frame12 {
@@ -956,10 +752,8 @@ body {
       padding: 0px;
       gap: 4px;
       top: 352px;
-  
       width: 470px;
       height: 48px;
-  
       flex: none;
       order: 4;
       flex-grow: 0;
@@ -970,28 +764,20 @@ body {
       flex-direction: row;
       align-items: flex-start;
       padding: 0px;
-      gap: 2px;
-      
+      gap: 2px;    
       width: 46px;
       height: 20px;
-  
-      /* border: rgb(114, 106, 106) solid 5px;  */
   }
   
   .Frame14 {
       width: 46px;
       height: 20px;
-  
       font-family: 'Heebo';
       font-style: normal;
       font-weight: 500;
       font-size: 14px;
       line-height: 20px;
-      
-  
       color: #212121;
-  
-      /* border: rgb(114, 106, 106) solid 5px;  */
   }
   
   .frame15 {
@@ -1001,11 +787,8 @@ body {
       justify-content: space-between;
       padding: 0px;
       gap: 4px;
-  
       width: auto;
       height: auto;
-      
-      /* border: rgb(114, 106, 106) solid 5px;  */
   }
   
   
@@ -1013,15 +796,10 @@ body {
           display: flex;
           flex-direction: row;
           align-items: center;
-          
           padding: 0px;
           gap: 8px;
-  
           width: 62px;
           height: 24px; 
-  
-          /* Inside auto layout */
-  
           flex: none;
           order: 0;
           flex-grow: 0;
@@ -1040,13 +818,11 @@ body {
     width: 144px;
     height: 24px;
     padding-top: 5px;
-  
     font-family: 'Heebo';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-  
     color: #212121;
     flex: none;
     order: 1;
@@ -1054,20 +830,13 @@ body {
   }
   
   .frame16 {
-          /* Auto layout */
-  
           display: flex;
           flex-direction: column;
           align-items:flex-start;
           justify-content: flex-start;
           padding: 0px;
-          /* gap: 24px; */
-          /* margin-top: 50px; */
-  
           width: auto;
           height: 134px;
-          
-          /* Inside auto layout */
   }
   
   .frame17 {
@@ -1079,8 +848,6 @@ body {
     width: 420px;
     height: 90px;
     margin-top: 80px;
-    /* margin-bottom: 30px; */
-    /* border: rgb(114, 106, 106) solid 5px;  */
   }
   
   .btn-btn-primary {
@@ -1091,14 +858,11 @@ body {
     align-items: center;
     padding: 12px 16px;
     gap: 8px;
-  
     width: 220px;
     height: 46px;
-  
     background: #175CD3;
     border: 1px solid #175CD3;
     border-radius: 6px;
-  
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -1115,9 +879,7 @@ body {
     display: flex;
     align-items: center;
     letter-spacing: 0.15px;
-  
     color: #FFFFFF;
-  
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -1126,13 +888,11 @@ body {
   .form-group-text-center {
     width: 220px;
     height: 120px;
-  
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-  
     color: #667085;
     margin-bottom: 300px;
   }
@@ -1168,7 +928,6 @@ body {
   }
   .create-account-button{
     cursor:pointer;
-  }
- 
+  } 
 }
 
