@@ -1,22 +1,14 @@
-import React from 'react'
-import {Container, Button, Title, Count} from './style'
-import MyComponent from './Context/Context';
+import React from "react";
+import { Container, Button, Title, Count } from "./style";
+import MyComponent from "./Context/Context";
+import { LoginPage } from "./page/Login Page/LoginPage";
 
 function App() {
-
   return (
     <div>
-      <MyComponent></MyComponent>
-      <Container>
-      <Title>My App</Title>
-      <Count>Count: 0</Count>
-      <Button onClick={() => console.log('Button clicked!')}>
-        Click me
-      </Button>
-    </Container>
-      
+      <LoginPage />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
