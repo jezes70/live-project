@@ -5,6 +5,7 @@ import Forgot from './page/ForgotPassword/Forgot';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { LandingPage } from './page/LandingPage/LandingPage';
+import { LoginPage } from './page/LoginPage/LoginPage';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <Router>
       <ToastContainer />
       <Routes>
+        <Route element = {<LoginPage/>} path="/login"/>
         <Route element = {<Forgot/>} path="/forgot-password"/>
         <Route element = {<ResetPassword/>} path="/reset-password"/>
         <Route path="/" element ={<LandingPage/>}/>

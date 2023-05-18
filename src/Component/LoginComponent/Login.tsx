@@ -11,7 +11,6 @@ export const Login = () => {
   const responseGoogle = (
     response: GoogleLoginResponse | GoogleLoginResponseOffline
   ) => {
-    console.log(response);
   };
   return (
     <div className="wrapper">
