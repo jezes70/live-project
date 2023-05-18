@@ -1,8 +1,9 @@
 import React from "react";
 import "./hero.css";
 import heroImage from "../../assets/heroImage.png";
+import {Link} from "react-router-dom"
 
-export default function Landing() {
+export default function Hero() {
   return (
     <div>
       <main className="hero">
@@ -19,10 +20,12 @@ export default function Landing() {
             people struggle to find the support they need to cope with their
             conditions, stigma often prevents them from seeking help.
           </p>
-
+         <Link to="/login" >
           <button id="first">Sign In</button>
-
+          </Link>
+          <Link to="/register"> 
           <button id="second">Register Here</button>
+          </Link>
         </section>
         <section id="b">
           <img src={heroImage} alt="logo" height="640" width="617" />
