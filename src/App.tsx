@@ -11,7 +11,8 @@ import { LoginPage } from './page/LoginPage/LoginPage';
 function App() {
 
   return (
-    <>
+    <div>
+    
     <Router>
       <ToastContainer />
       <Routes>
@@ -21,8 +22,10 @@ function App() {
         <Route path="/" element ={<LandingPage/>}/>
       </Routes>
     </Router>
-    </>
+    </div>
   )
 }
+
+
 
 export default App
