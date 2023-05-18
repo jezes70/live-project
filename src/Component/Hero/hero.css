@@ -1,30 +1,30 @@
-
-main{
+main {
   width: 100%;
   display: flex;
   flex-direction: row;
   height: 100vh;
-  background: #EFF8FF;
+  background: #eff8ff;
 }
-@media screen and (max-width: 850px){
-  main{
+
+@media screen and (max-width: 850px) {
+  main {
     width: 100%;
     display: flex;
     flex-direction: column;
-    background: #EFF8FF;
+    background: #eff8ff;
     height: auto;
     justify-content: center;
   }
 }
 
-main #a{
+main #a {
   width: 600px;
   margin-left: 100px;
   margin-top: 200px;
+  position: relative; /* Add this line */
 }
-
-@media screen and (max-width: 850px){
-  main #a{
+@media screen and (max-width: 850px) {
+  main #a {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -33,220 +33,135 @@ main #a{
   }
 }
 
-main #a h1{
+main #a h1 {
   font-family: "Inter";
   font-size: 55px;
 }
-@media screen and (max-width: 850px){
-  main #a h1{
+
+@media screen and (max-width: 850px) {
+  main #a h1 {
     font-family: "Inter";
     font-size: 35px;
     text-align: center;
   }
 }
 
-
-main #a #numberOne{
+main #a #numberOne {
   font-family: "Inter";
   font-size: 16px;
   line-height: 20px;
   font-weight: 200;
-  color: #5C6881;
+  color: #5c6881;
   position: relative;
-  bottom: 30px;
+  bottom: 0; 
 }
-@media screen and (max-width: 850px){
-  main #a #numberOne{
+
+@media screen and (max-width: 850px) {
+  main #a #numberOne {
     font-family: "Inter";
     font-size: 14px;
     font-weight: 200;
-    color: #5C6881;
+    color: #5c6881;
     /* position: relative;
     bottom: 15px; */
     width: 300px;
   }
 }
 
-main #a #numberTwo{
+main #a #numberTwo {
   font-family: "Inter";
   font-size: 16px;
   line-height: 26.4px;
   font-weight: 400;
   width: 450px;
   margin-top: 50px;
-  
 }
-@media screen and (max-width: 850px){
-  main #a #numberTwo{
+
+@media screen and (max-width: 850px) {
+  main #a #numberTwo {
     font-family: "Inter";
     font-size: 14px;
     line-height: 20.4px;
     font-weight: 400;
     margin-top: 50px;
     width: 300px;
-    
   }
 }
 
-main #a #first{
-border-style: solid;
-border-width: 1px;
-border-color: #175CD3;
-padding: 15px 20px;
-border-radius: 5px;
-font-family: "Inter";
-color: #175CD3;
-background-color: rgba(255, 255, 255, 0);
-font-size: 16px;
+main #a #first {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #175cd3;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-family: "Inter";
+  color: #175cd3;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 16px;
 }
 
-@media screen and (max-width: 850px){
-  main #a #first{
+@media screen and (max-width: 850px) {
+  main #a #first {
     border-style: solid;
     border-width: 1px;
-    border-color: #175CD3;
+    border-color: #175cd3;
     padding: 8px 25px;
     border-radius: 2.5px;
     font-family: "Inter";
-    color: #175CD3;
+    color: #175cd3;
     background-color: rgba(255, 255, 255, 0);
     font-size: 10px;
     display: block;
     position: relative;
     left: 5px;
-    }
+  }
 }
 
-main #a #second{
-border-style: none;
-border-color: #175CD3;
-padding: 15px 25px;
-border-radius: 5px;
-font-family: "Inter";
-color: #fff;;
-background-color: #175CD3;
-font-size: 16px;
-position: relative;
-left: 60px;
+main #a #second {
+  border-style: none;
+  border-color: #175cd3;
+  padding: 15px 25px;
+  border-radius: 5px;
+  font-family: "Inter";
+  color: #fff;
+  background-color: #175cd3;
+  font-size: 16px;
+  position: relative;
+  left: 60px;
 }
 
-@media screen and (max-width: 850px){
-  main #a #second{
+@media screen and (max-width: 850px) {
+  main #a #second {
     border-style: none;
-    border-color: #175CD3;
+    border-color: #175cd3;
     padding: 7px 10px;
     border-radius: 2.5px;
     font-family: "Inter";
-    color: #fff;;
-    background-color: #175CD3;
+    color: #fff;
+    background-color: #175cd3;
     font-size: 10px;
     display: block;
     position: relative;
     left: 5px;
     top: 10px;
-    }
+  }
 }
 
-main #b{
+main #b {
   width: 617px;
   height: 640px;
   margin-left: 100px;
   margin-top: 100px;
 }
 
-@media screen and (max-width: 850px){
-  main #b{
+@media screen and (max-width: 850px) {
+  main #b {
     margin-left: auto;
     margin-right: auto;
   }
 
-  main #b img{
+  main #b img {
     width: 300px;
     height: 323px;
   }
 }
-
-
-/* @media screen and (max-width: 850px) {
-  main{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    background: #EFF8FF;
-    height: auto;
-  }
-  
-  main #a{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    background-color: aqua;
-  }
-  
-  main #a h1{
-    font-family: "Inter";
-    font-size: 35px;
-    text-align: center;
-  }
-  
-  main #a #numberOne{
-    font-family: "Inter";
-    font-size: 14px;
-    font-weight: 200;
-    color: #5C6881;
-    position: relative;
-    bottom: 15px;
-    width: 300px;
-  }
-  
-  main #a #numberTwo{
-    font-family: "Inter";
-    font-size: 14px;
-    line-height: 20.4px;
-    font-weight: 400;
-    margin-top: 50px;
-    width: 300px;
-    
-  }
-  
-  main #a #first{
-  border-style: solid;
-  border-width: 1px;
-  border-color: #175CD3;
-  padding: 8px 25px;
-  border-radius: 2.5px;
-  font-family: "Inter";
-  color: #175CD3;
-  background-color: rgba(255, 255, 255, 0);
-  font-size: 10px;
-  display: block;
-  position: relative;
-  left: 5px;
-  }
-  
-  main #a #second{
-  border-style: none;
-  border-color: #175CD3;
-  padding: 7px 10px;
-  border-radius: 2.5px;
-  font-family: "Inter";
-  color: #fff;;
-  background-color: #175CD3;
-  font-size: 10px;
-  display: block;
-  position: relative;
-  left: 5px;
-  top: 10px;
-  }
-  
-  main #b{
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  main #b img{
-    width: 300px;
-    height: 323px;
-  }
-} */
