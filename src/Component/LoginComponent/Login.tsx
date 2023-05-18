@@ -1,15 +1,15 @@
 import React from "react";
 import {
   GoogleLogin,
-  GoogleLoginResponse,
-  GoogleLoginResponseOffline,
+  // GoogleLoginResponse,
+  // GoogleLoginResponseOffline,
 } from "react-google-login";
 // import { Image } from "./assets/";
 import "./login.css";
 
 export const Login = () => {
   const responseGoogle = (
-    response: GoogleLoginResponse | GoogleLoginResponseOffline
+    // response: GoogleLoginResponse | GoogleLoginResponseOffline
   ) => {
   };
   return (

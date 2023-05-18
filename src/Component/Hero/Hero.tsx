@@ -1,5 +1,6 @@
 import React from "react"
 import "./hero.css"
+import heroImage from "../../assets/heroImage.png"
 
 export default function Landing() {
   return (
@@ -24,7 +25,7 @@ export default function Landing() {
 
     </section>
     <section id="b">
-<img src="./images/Frame 8409 (3).png" alt="logo" height="640" width="617"/>
+<img src={heroImage} alt="logo" height="640" width="617"/>
     </section>
   </main>
     </div>
