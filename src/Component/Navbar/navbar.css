@@ -1,16 +1,10 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-header{
+.navbar{
     width: 100%;
     display: flex;
     flex-direction: row;
 }
 
-header #mind-connect{
+.navbar #mind-connect{
     position: relative;
     top: 30px;
     text-decoration: none;
@@ -21,7 +15,7 @@ header #mind-connect{
     left: 100px;
 }
 
-header nav hr{
+.navbar nav hr{
     position: relative;
     top: 35px;
     width: 75px;
@@ -31,7 +25,7 @@ header nav hr{
     border-radius: 4px;
 }
 
-header #sign-up{
+.navbar #sign-up{
     margin-left: auto;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -49,23 +43,23 @@ header #sign-up{
 
   /* Media Queries */
   @media (max-width: 768px) {
-    header {
+    .navbar {
       flex-direction: column;
       align-items: center;
     }
   
-    header #mind-connect {
+    .navbar #mind-connect {
       left: 0;
       margin-top: 20px;
       margin-bottom: 10px;
       text-align: center;
     }
   
-    header nav hr {
+    .navbar nav hr {
       left: 0;
     }
   
-    header #sign-up {
+    .navbar #sign-up {
       margin: 20px 0;
       margin-right: 0;
     }

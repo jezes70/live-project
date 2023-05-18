@@ -1781,10 +1781,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@remix-run/router@npm:1.6.1":
-  version: 1.6.1
-  resolution: "@remix-run/router@npm:1.6.1"
-  checksum: 37d46dd9ff73ce6ca4d1df4d1283ec7515c96ef39b3f042b4071856ae5852008765e5ebe2db212d7dba08a6c19f4b1af3664c3765f4acdd3dcd3917feb5a4821
+"@remix-run/router@npm:1.6.2":
+  version: 1.6.2
+  resolution: "@remix-run/router@npm:1.6.2"
+  checksum: 98f9d84c8d4b66a267fcd908c436a79179137c4ee6bd4e23afec0b8a7cd8b1c1d0fe9b5125f83a6d30d15dd739fcbe505b685418f6ca2360441158d284fed524
   languageName: node
   linkType: hard
 
@@ -2511,9 +2511,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.284":
-  version: 1.4.397
-  resolution: "electron-to-chromium@npm:1.4.397"
-  checksum: 5c72dd3c275e8096d85e34639e683b82ebda98df40c71504d1c673f0ccebf52dd3fdee257022ef4d648c11dce48677d876327c9bd295a8d1c719d62ae0a52b09
+  version: 1.4.399
+  resolution: "electron-to-chromium@npm:1.4.399"
+  checksum: e342a8a8751d07b5500365bf0ff960d5cbbcebc1db70ed1ed3a8143ef1c6fa749e26c3295ed29c32526366d60776d25f4f311f79b4dc58ff1eca78e6e50d6503
   languageName: node
   linkType: hard
 
@@ -3207,7 +3207,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-core-module@npm:^2.12.0":
+"is-core-module@npm:^2.11.0":
   version: 2.12.1
   resolution: "is-core-module@npm:2.12.1"
   dependencies:
@@ -3944,26 +3944,26 @@ __metadata:
   linkType: hard
 
 "react-router-dom@npm:^6.11.1":
-  version: 6.11.1
-  resolution: "react-router-dom@npm:6.11.1"
+  version: 6.11.2
+  resolution: "react-router-dom@npm:6.11.2"
   dependencies:
-    "@remix-run/router": "npm:1.6.1"
-    react-router: "npm:6.11.1"
+    "@remix-run/router": "npm:1.6.2"
+    react-router: "npm:6.11.2"
   peerDependencies:
     react: ">=16.8"
     react-dom: ">=16.8"
-  checksum: 1532e198268bea791919e2db1788d4dd4d90dc8e76612d0bae028b16e0ffaddc1c76e1af416a923eab09be8f71c27ae1d9ba257b9bfaef714d1f17f81c09b25d
+  checksum: 3d0a845e615067897b5d76c5584e7907ec683e22699c3bc8ba2b29012bc7605e81886308ff151d7ef9e93ccca930a9f11e3797d8ab1d3b025bd0c9830e151791
   languageName: node
   linkType: hard
 
-"react-router@npm:6.11.1":
-  version: 6.11.1
-  resolution: "react-router@npm:6.11.1"
+"react-router@npm:6.11.2":
+  version: 6.11.2
+  resolution: "react-router@npm:6.11.2"
   dependencies:
-    "@remix-run/router": "npm:1.6.1"
+    "@remix-run/router": "npm:1.6.2"
   peerDependencies:
     react: ">=16.8"
-  checksum: 5f39f6c6dbdd0d352416cc928dd61b8b8d321bc93f9135cc783fec125923c3ac8731af3fea07a8e97ce7b5eecf301e76fb6281872c85364b09d9b918118f72fc
+  checksum: def0b9b47fb2b699101b4980635747960009372668a16daa2537da1f3e62c6a649ff3bf497640b7920e15122c087b875ceb5d535f07fbfc982dde4ac974b89ab
   languageName: node
   linkType: hard
 
@@ -4073,28 +4073,28 @@ __metadata:
   linkType: hard
 
 "resolve@npm:^1.14.2":
-  version: 1.22.3
-  resolution: "resolve@npm:1.22.3"
+  version: 1.22.2
+  resolution: "resolve@npm:1.22.2"
   dependencies:
-    is-core-module: "npm:^2.12.0"
+    is-core-module: "npm:^2.11.0"
     path-parse: "npm:^1.0.7"
     supports-preserve-symlinks-flag: "npm:^1.0.0"
   bin:
     resolve: bin/resolve
-  checksum: bf0ce0162ee1b5a2dfe29e982b67fb0867911972ffba9a6903bb2c0c11e6c8eb7db7de5344645f84df7f9ba2a19438d373ddddf3a3125ececba719fccd40dd18
+  checksum: fe7adbedd826521300326e5c3e55784c369e8d52a16f542c3735c553a98dd26ba7fc91bc859a3cbe80cb1c83e5fa2d93aa2c36bdbe1584fff8c7feebc765cd1e
   languageName: node
   linkType: hard
 
 "resolve@patch:resolve@npm%3A^1.14.2#optional!builtin<compat/resolve>":
-  version: 1.22.3
-  resolution: "resolve@patch:resolve@npm%3A1.22.3#optional!builtin<compat/resolve>::version=1.22.3&hash=c3c19d"
+  version: 1.22.2
+  resolution: "resolve@patch:resolve@npm%3A1.22.2#optional!builtin<compat/resolve>::version=1.22.2&hash=c3c19d"
   dependencies:
-    is-core-module: "npm:^2.12.0"
+    is-core-module: "npm:^2.11.0"
     path-parse: "npm:^1.0.7"
     supports-preserve-symlinks-flag: "npm:^1.0.0"
   bin:
     resolve: bin/resolve
-  checksum: 9b982fd1fdbcca23f58d4d97df35bf1182eaccad96df6d8bbc4e9006616c382a10d7617e039a540cc86291e5247ddbb7cda9cceb1fd35688b03b03864b5d4360
+  checksum: 58838d3b80cac9bc3386d09c058e91c6169659ba8d42a01698e149bd27a7e3c1557c46e1d0e2bde1b426731ee46bf17d3a8e750c2ae78c093129891b39886c20
   languageName: node
   linkType: hard
 
@@ -4436,9 +4436,9 @@ __metadata:
   linkType: hard
 
 "tslib@npm:^2.5.0":
-  version: 2.5.0
-  resolution: "tslib@npm:2.5.0"
-  checksum: 5a6ee935f56cd653af29de928483acbab7323f964b053e98b6b318abc69431fb0e4f660c4f4a396e2e93852510bef25eeb9f1d951d060b2d7bcc313811e5da6f
+  version: 2.5.1
+  resolution: "tslib@npm:2.5.1"
+  checksum: 4e03af4a3e519b12cc9a82b3bbabc1cb71402b1233da868e4bdaec7199915ce6f64884058be10828bdfe75eaf9073fdf10f9efa2a7ccbb400b1f24382f26a0fc
   languageName: node
   linkType: hard
 
@@ -4569,8 +4569,8 @@ __metadata:
   linkType: hard
 
 "vite@npm:^4.3.2":
-  version: 4.3.7
-  resolution: "vite@npm:4.3.7"
+  version: 4.3.8
+  resolution: "vite@npm:4.3.8"
   dependencies:
     esbuild: "npm:^0.17.5"
     fsevents: "npm:~2.3.2"
@@ -4601,7 +4601,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: fd6dc7c9a706f0264f0a07e9ae705dd3dd960e793c00e3bf063857f2816ffc51fde0a1ece1b7a8a4712660143c114f5c3fc927a849e2f97f84d47136fe4718db
+  checksum: f702b12edab33c96133f03ac5051f81d429fcc70f2d784a6ad710978b696070e6ae6c832326fb733b74361dfc4b7f6f696b2c04628e594d5999cfd74c3f72166
   languageName: node
   linkType: hard
 
