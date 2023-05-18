@@ -205,6 +205,7 @@ border-radius: 6px;
   position: absolute;
   top:14px;
   right: 11px;
+  color: #757575;
 }
 
 .form-label {
@@ -385,13 +386,13 @@ input[type="radio"] {
 .form-check-label {
         width: 144px;
         height: 24px;
-        padding-top: 5px;
         font-family: 'Heebo';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 150%;
         color: #212121;
+        margin-top: 4px;
         flex: none;
         order: 1;
         flex-grow: 0;
@@ -673,6 +674,7 @@ body {
     position: absolute;
     top:14px;
     right: 11px;
+    color: #757575;
   }
   
   .form-label {
@@ -680,6 +682,7 @@ body {
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
+    
   }
   
   .form-group-box {
@@ -692,6 +695,7 @@ body {
     font-size: 14px;
     line-height: 20px;
     color: #212121;
+    
   }
   
     input[type="text"],
@@ -708,6 +712,7 @@ body {
       border: 1px solid #BDBDBD;
       border-radius: 4px;
       font-size: 17px;
+      
     }
   
     select {
@@ -789,8 +794,8 @@ body {
       gap: 4px;
       width: auto;
       height: auto;
+      
   }
-  
   
    .form-check1 {
           display: flex;
@@ -817,13 +822,13 @@ body {
   .form-check-label {
     width: 144px;
     height: 24px;
-    padding-top: 5px;
     font-family: 'Heebo';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 150%;
     color: #212121;
+    margin-top: 4px;
     flex: none;
     order: 1;
     flex-grow: 0;

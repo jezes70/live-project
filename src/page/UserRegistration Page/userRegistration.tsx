@@ -246,15 +246,15 @@ export const Registration: React.FC<RegistrationProps> = () => {
                                 Confrim Password
                               </label>
                             </div>
-                            <div className="confirmPassword-input">
+                            <div className="password-input">
                               <FaLock className="lock-icon" />
                               <input
                                 id="input-confirmPassword"
-                                type="confirmPassword"
+                                type="password"
                                 name="confirmPassword"
                                 required
                                 placeholder="Enter password"
-                                value={formValues.confirmPassword}
+                                value={formValues.password}
                                 onChange={handleChange}
                               />
                             </div>
