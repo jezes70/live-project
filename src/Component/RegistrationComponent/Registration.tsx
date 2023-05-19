@@ -47,7 +47,7 @@ export const Registration: React.FC<RegistrationProps> = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:3000/user/register",
+        "http://localhost:4000/user/register",
         formValues
       );
       if (response.status === 201) {

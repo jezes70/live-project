@@ -1,25 +1,28 @@
 import React from "react";
 import {
   GoogleLogin,
-  // GoogleLoginResponse,
-  // GoogleLoginResponseOffline,
+  GoogleLoginResponse,
+  GoogleLoginResponseOffline,
 } from "react-google-login";
-// import { Image } from "./assets/";
+// import Image1 from "../../assets/images/bg2.png"
 import "./login.css";
 
 export const Login = () => {
   const responseGoogle = (
-    // response: GoogleLoginResponse | GoogleLoginResponseOffline
+    response: GoogleLoginResponse | GoogleLoginResponseOffline
   ) => {
+    console.log(response);
   };
   return (
     <div className="wrapper">
+      <div className="wrap">
       <div className="image">
-        <div className="image-div "></div>
+        {/* <img src={Image1} alt="bg" /> */}
       </div>
       <div className="input">
         <div className="row-two">
-          <h1>Hi! Welcome Back</h1>
+          <h1 className="head1">Hi, Welcome Back</h1>
+          <span className="span"></span>
           <div className="inputDiv">
             <form action="">
               <div className="input-control">
@@ -46,12 +49,10 @@ export const Login = () => {
                   </button>
                 </div>
               </div>
-            </form>
             <div className="rowUp2">
               <div className="hr"></div>Or<div className="hr"></div>
             </div>
-          </div>
-
+        
           <GoogleLogin
             className="google"
             clientId=""
@@ -60,13 +61,16 @@ export const Login = () => {
             onFailure={responseGoogle}
             cookiePolicy={"single_host_origin"}
           />
-          <div className="rowUp">
             <p className="accountStyle">
               Don’t have an account? <a href="/register">Create account</a>
             </p>
+            
+          </form>
           </div>
         </div>
       </div>
+      </div>
+     
     </div>
   );
 };
