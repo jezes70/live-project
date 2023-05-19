@@ -20,7 +20,7 @@ function App() {
         <Route element = {<SignupPage/>} path="/register"/>
         <Route element = {<Forgot/>} path="/forgot-password"/>
         <Route element = {<ResetPassword/>} path="/reset-password"/>
-        <Route path="/" element ={<LandingPage/>}/>
+        <Route path="/" element ={<LandingPage />}/>
       </Routes>
     </Router>
     </div>
