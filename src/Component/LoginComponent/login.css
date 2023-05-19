@@ -42,8 +42,8 @@
   margin-left: 140px;
 }
 
-.input-control {
-  width: 420px;
+.input-control input {
+  width: 100%;
   margin-bottom: 10px;
 }
 

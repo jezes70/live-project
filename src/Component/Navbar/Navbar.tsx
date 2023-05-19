@@ -16,7 +16,7 @@ export default function Navbar() {
           <hr />
         </ul>
       </nav>
-      <Link to="/registration" id="sign-up"  onClick={() => console.log("this is the registration page")}>
+      <Link to="/register" id="sign-up"  onClick={() => console.log("this is the registration page")}>
         Sign Up
       </Link>
     </header>

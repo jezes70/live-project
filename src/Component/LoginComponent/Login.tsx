@@ -62,7 +62,7 @@ export const Login = () => {
             cookiePolicy={"single_host_origin"}
           />
             <p className="accountStyle">
-              Don’t have an account? <a href="/signUp">Create account</a>
+              Don’t have an account? <a href="/register">Create account</a>
             </p>
             
           </form>
