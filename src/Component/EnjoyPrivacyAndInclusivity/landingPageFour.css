@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    padding: 0
+  }
+  
+  .landingpagefourtitle {
+    text-align: center;
+    font-family: 'Inter';
+    line-height: 140%;
+  }
+  
+  .lpfourcontainer {
+    width: 100%;
+    padding:6rem;
+   background-color: #f2f4f7;;
+  }
+  
+  .landingpagefourparagraph {
+    
+    width:100%;
+    margin: 0 auto;
+  }
+  
+  .p-landingpage4 {
+    padding:2rem;
+    font-size: 16px;
+    color: #5C6881;
+    letter-spacing: 0.15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    line-height: 140%;
+    
+  }
+  
+  .landingpagefourbutton {
+    display: flex;
+    justify-content: center;
+  }
+  
