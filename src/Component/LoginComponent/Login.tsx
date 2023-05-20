@@ -1,22 +1,24 @@
 import React, { useState } from "react";
 import axios from "axios";
-import { GoogleLogin } from "react-google-login";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useNavigate } from "react-router-dom";
+import GoogleLogo from "../../assets/images/google.svg.png";
 import "./login.css";
 
 const api = axios.create({
   baseURL: "http://localhost:4000",
 });
 
-const CLIENT_ID = "1032466284052-30k4m8r06b1jbikvjl78ogje7amg74mm.apps.googleusercontent.com";
+const CLIENT_ID =
+  "1032466284052-30k4m8r06b1jbikvjl78ogje7amg74mm.apps.googleusercontent.com";
 
 export const Login = (): JSX.Element => {
   const navigate = useNavigate();
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [googleButtonDisabled, setGoogleButtonDisabled] = useState(true);
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -44,30 +46,21 @@ export const Login = (): JSX.Element => {
       // Handle error
       console.error(error);
 
+      // Inside the catch block of handleLogin
       if (error.response && error.response.status === 400) {
-        // User does not exist, display specific error message
-        toast.error("User does not exist");
+        if (error.response.data && error.response.data.Error) {
+          toast.error(error.response.data.Error);
+        } else {
+          toast.error("User does not exist");
+        }
       } else {
         toast.error("An error occurred during login.");
       }
     }
   };
 
-  const responseGoogle = async (response: any) => {
-    try {
-      const tokenId = response.tokenId;
-      const res = await axios.get(`/auth/google/url?tokenId=${tokenId}`);
-
-      // Handle the response from the backend
-      console.log(res.data);
-
-      // Redirect the user or perform any necessary actions
-      // In this case, you can redirect the user to the provided URL
-      window.location.href = res.data.url;
-    } catch (error) {
-      console.error(error);
-      toast.error("An error occurred during Google sign-in.");
-    }
+  const responseGoogle = () => {
+    window.location.href = "http://localhost:4000/auth/google/url";
   };
 
   return (
@@ -111,14 +104,14 @@ export const Login = (): JSX.Element => {
                 <div className="rowUp2">
                   <div className="hr"></div>Or<div className="hr"></div>
                 </div>
-                <GoogleLogin
+                <span
                   className="google"
-                  clientId={CLIENT_ID}
-                  buttonText="Sign in with Google"
-                  onSuccess={responseGoogle}
-                  onFailure={responseGoogle}
-                  cookiePolicy={"single_host_origin"}
-                />
+                  onClick={responseGoogle}
+                >
+                  <img src={GoogleLogo} alt="" className="google-icon" />
+                  Sign in with Google
+                </span>
+
                 <p className="accountStyle">
                   Don’t have an account? <a href="/register">Create account</a>
                 </p>
